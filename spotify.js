@@ -1,5 +1,6 @@
 exports.callAPI = function (songName, caller) {
     var spotify = require('spotify');
+    // defalt song is set to Oops!... I Did It Again
     var name = (getSongNameString(songName, caller) == "") ? 'Oops!... I Did It Again' : getSongNameString(songName, caller);
 
     spotify.search({ type: 'track', query: name }, function (err, data) {
