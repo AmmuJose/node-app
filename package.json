@@ -1,0 +1,26 @@
+{
+  "name": "liri",
+  "version": "1.0.0",
+  "description": "node app",
+  "main": "liri.js",
+  "dependencies": {
+    "trim": "^0.0.1",
+    "request": "^2.79.0",
+    "twitter": "^1.4.0",
+    "spotify": "^0.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmmuJose/node-app.git"
+  },
+  "author": "Neethu Jose",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmmuJose/node-app/issues"
+  },
+  "homepage": "https://github.com/AmmuJose/node-app#readme"
+}

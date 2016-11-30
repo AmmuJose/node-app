@@ -1,0 +1,11 @@
+{
+  "name": "liri",
+  "version": "1.0.0",
+  "description": "node app", 
+  "author": "Neethu Jose",
+  "dependencies": {
+    "request": "2.79.0",
+    "twitter": "1.4.0",
+    "spotify": "0.3.0"
+  }
+}
